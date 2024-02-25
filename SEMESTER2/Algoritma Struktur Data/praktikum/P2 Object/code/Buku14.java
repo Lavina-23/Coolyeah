@@ -38,4 +38,34 @@ public class Buku14 {
     void gantiHarga(int hrg) {
         harga = hrg;
     }
+
+    int totalHarga;
+
+    void hitungHargaTotal(int jml) {
+        totalHarga = harga * jml;
+    }
+
+    double diskon;
+
+    void hitungDiskon() {
+        if (totalHarga > 150_000) {
+            diskon = totalHarga * 0.12;
+        } else if (totalHarga > 75_000 && totalHarga < 150_000) {
+            diskon = totalHarga * 0.05;
+        } else {
+            diskon = 0;
+        }
+    }
+
+    int totalBayar;
+
+    void hitungHargaBayar() {
+        totalBayar = totalHarga - (int) diskon;
+    }
+
+    void tampilTransaksi() {
+        System.out.println("Total harga: Rp " + totalHarga);
+        System.out.println("Total diskon: Rp " + (int) diskon);
+        System.out.println("Total bayar: Rp " + totalBayar);
+    }
 }
