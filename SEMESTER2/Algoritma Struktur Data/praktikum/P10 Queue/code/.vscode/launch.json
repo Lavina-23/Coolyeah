@@ -1,0 +1,35 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "QueueMain",
+      "request": "launch",
+      "mainClass": "Praktikum1.QueueMain",
+      "projectName": "code_628148c9"
+    },
+    {
+      "type": "java",
+      "name": "QueueMain(1)",
+      "request": "launch",
+      "mainClass": "Praktikum2.QueueMain",
+      "projectName": "code_628148c9"
+    },
+    {
+      "type": "java",
+      "name": "QueueMain(2)",
+      "request": "launch",
+      "mainClass": "Tugas.QueueMain",
+      "projectName": "code_628148c9"
+    }
+  ]
+}
