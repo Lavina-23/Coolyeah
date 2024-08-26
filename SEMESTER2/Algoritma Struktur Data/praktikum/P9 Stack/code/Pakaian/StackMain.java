@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class StackMain {
   public static void main(String[] args) {
-    Stack stk = new Stack(5);
+    Stack stk = new Stack(2);
     Scanner sc = new Scanner(System.in);
 
     int menu;
     do {
       System.out.println("Menu");
-      System.out.println("1.Push\n2.Pop\n3.Peek\n4.Print\n5.Keluar");
+      System.out.println("1.Push\n2.Pop\n3.Peek\n4.Print\n5.Harga Tertinggi\n6.Keluar");
       System.out.print("Pilih: ");
       menu = sc.nextInt();
       sc.nextLine();
@@ -47,6 +47,9 @@ public class StackMain {
           stk.print();
           break;
         case 5:
+          stk.getMax();
+          break;
+        case 6:
           break;
         default:
           break;

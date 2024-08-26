@@ -70,4 +70,20 @@ public class Stack {
       System.out.println("Stack masih kosong");
     }
   }
+
+  public void getMax() {
+    int indexMax = 0;
+
+    if (data.length > 0) {
+      for (int i = 1; i < data.length; i++) {
+        if (data[i].harga > data[indexMax].harga) {
+          indexMax = i;
+        }
+      }
+      System.out.println("Pakaian dengan Harga Tertinggi\nJenis: " + data[indexMax].jenis + "\nMerk: "
+          + data[indexMax].merk + "\nHarga: " + data[indexMax].harga);
+    } else {
+      System.out.println("Stack Kosong");
+    }
+  }
 }
