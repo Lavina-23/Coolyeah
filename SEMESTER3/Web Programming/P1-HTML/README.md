@@ -1,16 +1,17 @@
-# PEMROGRAMAN WEB
-
 # Jobsheet 1 : Instalasi Web Server dan HTML Dasar
 
 **Nama :** Lavina<br>
 **NIM :** 2342760062<br>
 **Kelas :** SIB 2D<br>
 
-## **Praktikum Bagian 1. Instalasi Laragon**
+### **Praktikum Bagian 1. Instalasi Laragon**
 
-![hasil p1](./img/laragon.png)
+![hasil](./img/laragon.png)
 
-## **Praktikum Bagian 2: Memulai HTML**
+- Buka browser Anda, ketikkan localhost kemudian jalankan.
+  ![hasil](./img/image-39.png)
+
+### **Praktikum Bagian 2: Memulai HTML**
 
 `hello.html`
 
@@ -25,13 +26,14 @@
 </html>
 ```
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![hasil p2](./img/p2.png)
 
 - Hilangkan tag `<br>` pada kode, amati perbedaannya dan sampaikan di bawah ini apakah fungsi tag `<br>`
   **Jawab :** Ketika tag `<br>` dihapus maka enter setelah kata `Hello World!` jadi menghilang karena tag tersebut berfungsi untuk menyisipkan satu baris baru.
 
-## **Praktikum Bagian 3: Format Teks**
+### **Praktikum Bagian 3: Format Teks**
 
 `heading.html`
 
@@ -48,7 +50,8 @@
 </html>
 ```
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![hasil p3](./img/p3.png)
 
 - Tambahkan atribut align di dalam tag heading seperti di bawah ini dan simpan file dengan nama headingAlign.html
@@ -68,7 +71,8 @@
 </html>
 ```
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![hasil p3-6](./img/p3-6.png)
 
 **Paragraf**
@@ -84,7 +88,8 @@
 </html>
 ```
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![hasil p3 paragraf](./img/p3-p-3.png)
 
 `paragrafAlign.html`
@@ -104,10 +109,11 @@
 </html>
 ```
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![paragraf align](./img/p3-p-9.png)
 
-## **Praktikum Bagian 4 : Font**
+### **Praktikum Bagian 4 : Font**
 
 `font.html`
 
@@ -127,10 +133,11 @@
 </html>
 ```
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![font](./img/p4.png)
 
-## **Praktikum Bagian 5: Karakter Khusus**
+### **Praktikum Bagian 5: Karakter Khusus**
 
 `karakter.html`
 
@@ -149,10 +156,11 @@
 </html>
 ```
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![karakter](./img/image.png)
 
-## **Praktikum Bagian 6: Garis Horizontal**
+### **Praktikum Bagian 6: Garis Horizontal**
 
 `garishorizontal.html`
 
@@ -194,10 +202,11 @@
 </html>
 ```
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![horizontal line](./img/image-1.png)
 
-## **Praktikum Bagian 7: Menggunakan List**
+### **Praktikum Bagian 7: Menggunakan List**
 
 `list.html`
 
@@ -235,10 +244,11 @@
 </html>
 ```
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![list](./img/image-2.png)
 
-## **Praktikum Bagian 8 : Pewarnaan**
+### **Praktikum Bagian 8 : Pewarnaan**
 
 `warna.html`
 
@@ -255,10 +265,11 @@
 </html>
 ```
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![warna](./img/image-3.png)
 
-## **Praktikum Bagian 9: Bekerja dengan Gambar**
+### **Praktikum Bagian 9: Bekerja dengan Gambar**
 
 `gambar.html`
 
@@ -284,11 +295,12 @@
 </html>
 ```
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![gambar1](./img/image-4.png)
 ![gambar2](./img/image-5.png)
 
-## **Praktikum Bagian 10 : Link**
+### **Praktikum Bagian 10 : Link**
 
 `macamLink.html`
 
@@ -394,7 +406,8 @@
 </html>
 ```
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![menu](./img/image-6.png)
 
 ### Tugas Praktikum Bagian 10 : Link
@@ -420,10 +433,11 @@ Buat sebuah halaman, beri nama tugasLink.html Tampilkan sebuah gambar yang menga
 </html>
 ```
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![tugas gambar link](./img/image-7.png)
 
-## **Praktikum Bagian 11 : Tabel dan Pengaturannya**
+### **Praktikum Bagian 11 : Tabel dan Pengaturannya**
 
 `buatTabel.html`
 
@@ -443,77 +457,91 @@ Buat sebuah halaman, beri nama tugasLink.html Tampilkan sebuah gambar yang menga
 </html>
 ```
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![tabel](./img/image-8.png)
 
 - Tambahkan atribut border = 1 pada tag `<table>`. Simpan file lalu jalankan melalui browser : localhost/dasarWeb/buatTabel.html
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![border](./img/image-9.png)
 
 - Tambahkan satu baris dalam tabel yang dibuat sebelumnya dan tambahkan satu kolom di dalamnya.
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![baris baru](./img/image-10.png)
 
 - Dari kode yang anda ubah di soal no 17, tambahkan atribut pada tag `<table>` berupa height=100% width=40%.
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![hasil](./img/image-11.png)
 
 - Dari kode program yang anda ubah di langkah 12, hapus tanda % pada height dan width, sehingga menjadi height=100 width=40.
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![hasil](./img/image-12.png)
 
 - Dari kode program yang anda ubah pada langkah 15, tambahkan atribut cellpadding = 20.
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![hasil](./img/image-13.png)
 
 - Dari kode program yang anda ubah pada langkah 18, tambahkan atribut cellspacing=5.
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![hasil](./img/image-14.png)
 
 - Dari kode program yang anda ubah pada langkah 21, pada kode program yang digunakan untuk mengatur kolom 1 dari baris 1, tambahkan atribut align=right, sehingga kode pada bagian tersebut menjadi `<td align=right>`.
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![hasil](./img/image-15.png)
 
 - Dari kode program yang anda ubah pada langkah 24, tambahkan % pada height dan width, sehingga menjadi height=100% dan width=40%
 - Selanjutnya pada kode program yang digunakan untuk mengatur kolom 1 dari baris 1, tambahkan atribut valign=bottom, sehingga kode pada bagian tersebut menjadi `<td align=right valign=bottom>`
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![hasil](./img/image-17.png)
 
 - Dari kode program pada langkah 28, tambahkan pengaturan font pada isi baris pertama kolom pertama dengan menambahkan tag `<font>` di dalam tag `<td>`. Dapat dilihat di langkah 32.
   ![soal](./img/image-18.png)
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![hasil](./img/image-19.png)
 
 - Ubah warna tulisan “ini baris pertama kolom pertama” menjadi warna merah, ukuran=15.
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![hasil](./img/image-20.png)
 
 - Dari kode program buatTabel.html setelah langkah 35 selesai, tambahkan atribut colspan=”2” pada baris kedua kolom 1, sehingga pada tag `<table>` hasilnya akan seperti pada potongan kode program di langkah 37.
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![hasil](./img/image-23.png)
 
 - Kemudian tambahkan 1 kolom lagi di baris kedua.
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![hasil](./img/image-24.png)
 
 - Tambahkan rowspan=”2” pada baris pertama kolom pertama
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![hasil](./img/image-25.png)
 
-## **Praktikum Bagian 12 : Bekerja dengan Form pada HTML**
+### **Praktikum Bagian 12 : Bekerja dengan Form pada HTML**
 
 `buatForm.html`
 
@@ -542,7 +570,8 @@ Buat sebuah halaman, beri nama tugasLink.html Tampilkan sebuah gambar yang menga
 </html>
 ```
 
-**Hasil Percobaan**
+### Hasil Percobaan
+
 ![hasil](./img/image-26.png)
 
 - Tambahkan satu input text yang akan digunakan untuk memasukkan alamat, letakkan di bawah elemen input text untuk memasukkan nama.
