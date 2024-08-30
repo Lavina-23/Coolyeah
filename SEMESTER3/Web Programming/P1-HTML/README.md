@@ -8,7 +8,7 @@
 
 ![hasil](./img/laragon.png)
 
-- Buka browser Anda, ketikkan localhost kemudian jalankan.
+- Buka browser Anda, ketikkan localhost kemudian jalankan. <br>
   ![hasil](./img/image-39.png)
 
 ### **Praktikum Bagian 2: Memulai HTML**
@@ -461,84 +461,72 @@ Buat sebuah halaman, beri nama tugasLink.html Tampilkan sebuah gambar yang menga
 
 ![tabel](./img/image-8.png)
 
-- Tambahkan atribut border = 1 pada tag `<table>`. Simpan file lalu jalankan melalui browser : localhost/dasarWeb/buatTabel.html
+Tambahkan atribut border = 1 pada tag `<table>`. Simpan file lalu jalankan melalui browser : localhost/dasarWeb/buatTabel.html <br>
 
-### Hasil Percobaan
-
+Hasilnya: <br>
 ![border](./img/image-9.png)
 
-- Tambahkan satu baris dalam tabel yang dibuat sebelumnya dan tambahkan satu kolom di dalamnya.
+Tambahkan satu baris dalam tabel yang dibuat sebelumnya dan tambahkan satu kolom di dalamnya. <br>
 
-### Hasil Percobaan
-
+Hasilnya:<br>
 ![baris baru](./img/image-10.png)
 
-- Dari kode yang anda ubah di soal no 17, tambahkan atribut pada tag `<table>` berupa height=100% width=40%.
+Dari kode yang anda ubah di soal no 17, tambahkan atribut pada tag `<table>` berupa height=100% width=40%. <br>
 
-### Hasil Percobaan
-
+Hasilnya:<br>
 ![hasil](./img/image-11.png)
 
-- Dari kode program yang anda ubah di langkah 12, hapus tanda % pada height dan width, sehingga menjadi height=100 width=40.
+Dari kode program yang anda ubah di langkah 12, hapus tanda % pada height dan width, sehingga menjadi height=100 width=40. <br>
 
-### Hasil Percobaan
-
+Hasilnya: <br>
 ![hasil](./img/image-12.png)
 
-- Dari kode program yang anda ubah pada langkah 15, tambahkan atribut cellpadding = 20.
+Dari kode program yang anda ubah pada langkah 15, tambahkan atribut cellpadding = 20. <br>
 
-### Hasil Percobaan
-
+Hasilnya: <br>
 ![hasil](./img/image-13.png)
 
-- Dari kode program yang anda ubah pada langkah 18, tambahkan atribut cellspacing=5.
+Dari kode program yang anda ubah pada langkah 18, tambahkan atribut cellspacing=5. <br>
 
-### Hasil Percobaan
-
+Hasilnya:<br>
 ![hasil](./img/image-14.png)
 
-- Dari kode program yang anda ubah pada langkah 21, pada kode program yang digunakan untuk mengatur kolom 1 dari baris 1, tambahkan atribut align=right, sehingga kode pada bagian tersebut menjadi `<td align=right>`.
+Dari kode program yang anda ubah pada langkah 21, pada kode program yang digunakan untuk mengatur kolom 1 dari baris 1, tambahkan atribut align=right, sehingga kode pada bagian tersebut menjadi `<td align=right>`. <br>
 
-### Hasil Percobaan
-
+Hasilnya:<br>
 ![hasil](./img/image-15.png)
 
-- Dari kode program yang anda ubah pada langkah 24, tambahkan % pada height dan width, sehingga menjadi height=100% dan width=40%
-- Selanjutnya pada kode program yang digunakan untuk mengatur kolom 1 dari baris 1, tambahkan atribut valign=bottom, sehingga kode pada bagian tersebut menjadi `<td align=right valign=bottom>`
+Dari kode program yang anda ubah pada langkah 24, tambahkan % pada height dan width, sehingga menjadi height=100% dan width=40% <br>
+Selanjutnya pada kode program yang digunakan untuk mengatur kolom 1 dari baris 1, tambahkan atribut valign=bottom, sehingga kode pada bagian tersebut menjadi `<td align=right valign=bottom>` <br>
 
-### Hasil Percobaan
-
+Hasilnya:<br>
 ![hasil](./img/image-17.png)
 
-- Dari kode program pada langkah 28, tambahkan pengaturan font pada isi baris pertama kolom pertama dengan menambahkan tag `<font>` di dalam tag `<td>`. Dapat dilihat di langkah 32.
-  ![soal](./img/image-18.png)
+Dari kode program pada langkah 28, tambahkan pengaturan font pada isi baris pertama kolom pertama dengan menambahkan tag `<font>` di dalam tag `<td>`. Dapat dilihat di langkah 32. <br>
+![soal](./img/image-18.png) <br>
 
-### Hasil Percobaan
-
+Hasilnya:<br>
 ![hasil](./img/image-19.png)
 
-- Ubah warna tulisan “ini baris pertama kolom pertama” menjadi warna merah, ukuran=15.
+Ubah warna tulisan “ini baris pertama kolom pertama” menjadi warna merah, ukuran=15. <br>
 
-### Hasil Percobaan
-
+Hasilnya:<br>
 ![hasil](./img/image-20.png)
 
-- Dari kode program buatTabel.html setelah langkah 35 selesai, tambahkan atribut colspan=”2” pada baris kedua kolom 1, sehingga pada tag `<table>` hasilnya akan seperti pada potongan kode program di langkah 37.
+Dari kode program buatTabel.html setelah langkah 35 selesai, tambahkan atribut colspan=”2” pada baris kedua kolom 1, sehingga pada tag `<table>` hasilnya akan seperti pada potongan kode program di langkah 37. <br>
 
-### Hasil Percobaan
-
+Hasilnya: <br>
 ![hasil](./img/image-23.png)
 
-- Kemudian tambahkan 1 kolom lagi di baris kedua.
+Kemudian tambahkan 1 kolom lagi di baris kedua. <br>
 
-### Hasil Percobaan
+Hasilnya: <br>
 
 ![hasil](./img/image-24.png)
 
-- Tambahkan rowspan=”2” pada baris pertama kolom pertama
+Tambahkan rowspan=”2” pada baris pertama kolom pertama <br>
 
-### Hasil Percobaan
-
+Hasilnya: <br>
 ![hasil](./img/image-25.png)
 
 ### **Praktikum Bagian 12 : Bekerja dengan Form pada HTML**
@@ -574,46 +562,56 @@ Buat sebuah halaman, beri nama tugasLink.html Tampilkan sebuah gambar yang menga
 
 ![hasil](./img/image-26.png)
 
-- Tambahkan satu input text yang akan digunakan untuk memasukkan alamat, letakkan di bawah elemen input text untuk memasukkan nama.
-  ![hasil](./img/image-28.png)
+Tambahkan satu input text yang akan digunakan untuk memasukkan alamat, letakkan di bawah elemen input text untuk memasukkan nama. <br>
+Hasilnya: <br>
+![hasil](./img/image-28.png)
 
-- Tambahkan kode program berikut ini di bawah radio button yang terakhir, di atas tombol submit dan clear.
-  ![soal](./img/image-29.png)
+Tambahkan kode program berikut ini di bawah radio button yang terakhir, di atas tombol submit dan clear. <br>
+![soal](./img/image-29.png) <br>
 
+Hasilnya: <br>
 ![hasil](./img/image-27.png)
 
-- Dari kode yang anda ubah di soal no 32, tambahkan satu input checkbox yang akan menampilkan pilihan berisi “I have a plane” dan tanda ✓ pindah dari opsi “I have a bike ke opsi chexbox “I have a plane.
+Dari kode yang anda ubah di soal no 32, tambahkan satu input checkbox yang akan menampilkan pilihan berisi “I have a plane” dan tanda ✓ pindah dari opsi “I have a bike ke opsi chexbox “I have a plane. <br>
 
+Hasilnya:<br>
 ![hasil](./img/image-30.png)
 
-- Tambahkan kode program di langkah ke 17 ke dalam kode program yang anda ubah di langkah 13, tempatkan di bawah pengaturan checkbox dan di atas pengaturan tombol.
-  ![soal](./img/image-31.png)
+Tambahkan kode program di langkah ke 17 ke dalam kode program yang anda ubah di langkah 13, tempatkan di bawah pengaturan checkbox dan di atas pengaturan tombol. <br>
+![soal](./img/image-31.png)<br>
 
+Hasilnya:<br>
 ![hasil](./img/image-32.png)
 
-- Dari kode program yang anda ubah pada langkah 17,tambahkan satu pilihan negara yaitu Indonesia dan default pilihan berada di negara Indonesia.
+Dari kode program yang anda ubah pada langkah 17,tambahkan satu pilihan negara yaitu Indonesia dan default pilihan berada di negara Indonesia. <br>
 
+Hasilnya:<br>
 ![hasil](./img/image-33.png)
 
-- Dari kode program pada langkah 17, ubah nilai size=1 menjadi size=2.
+Dari kode program pada langkah 17, ubah nilai size=1 menjadi size=2. <br>
 
+Hasilnya:<br>
 ![hasil](./img/image-34.png)
 
-- Dari kode program yang anda ubah pada langkah 24, tambahkan sebuah single text area untuk memasukkan password, menggunakan input dengan tipe password.
+Dari kode program yang anda ubah pada langkah 24, tambahkan sebuah single text area untuk memasukkan password, menggunakan input dengan tipe password. <br>
 
+Hasilnya:<br>
 ![hasil](./img/image-35.png)
 
-- Tambahkan sebuah text area untuk mengetik komentar panjang dengan menggunakan tag `<textarea>` dan `</textarea>`
+Tambahkan sebuah text area untuk mengetik komentar panjang dengan menggunakan tag `<textarea>` dan `</textarea>` <br>
 
+Hasilnya: <br>
 ![hasil](./img/image-36.png)
 
-- Perhatikan pada tag `<form>` terdapat atribut method=”POST”. Jalankan kembali pada browser alamat berikut : localhost/dasarWeb/buatForm.html,isi form, lalu klik pada tombol Send. Perhatikan pada alamat URL di halaman yang di tuju setelah tombol Send diklik.
-- Buka kembali kode program buatForm.html, ubah method dari POST menjadi GET. Simpan dan jalankan kembali pada browser alamat berikut : localhost/dasarWeb/buatForm.html,isi form, lalu klik pada tombol Send. Perhatikan pada alamat URL di halaman yang di tuju setelah tombol send diklik. Amati dan bandingkan perbedaan antara method GET dan POST.
+Perhatikan pada tag `<form>` terdapat atribut method=”POST”. Jalankan kembali pada browser alamat berikut : localhost/dasarWeb/buatForm.html,isi form, lalu klik pada tombol Send. Perhatikan pada alamat URL di halaman yang di tuju setelah tombol Send diklik. <br>
+Buka kembali kode program buatForm.html, ubah method dari POST menjadi GET. Simpan dan jalankan kembali pada browser alamat berikut : localhost/dasarWeb/buatForm.html,isi form, lalu klik pada tombol Send. Perhatikan pada alamat URL di halaman yang di tuju setelah tombol send diklik. Amati dan bandingkan perbedaan antara method GET dan POST.
 
-**Hasil method POST**
-![hasil post](./img/image-37.png)
+#### Hasil method POST
+
+![hasil post](./img/image-37.png) <br>
 Ketika menggunakan method POST url linknya hanya menampilkan nama file atau nama page yang diletakkan di atribut action.
 
-**Hasil method GET**
-![hasil get](./img/image-38.png)
+#### Hasil method GET
+
+![hasil get](./img/image-38.png) <br>
 Sedangkan jika menggunakan method GET url linknya berisi value-value dari form yang sudah diisi.
