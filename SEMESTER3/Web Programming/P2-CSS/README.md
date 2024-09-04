@@ -32,7 +32,7 @@ h2 {
 
 ### Hasil Percobaan
 
-![hasil](image.png)<br>
+![hasil](img/image.png)<br>
 
 ### **Praktikum Bagian 2: Penggunaan div**
 
@@ -721,9 +721,9 @@ h2 {
 
 ### Hasil Percobaan
 
-![hasil](img/image-21.png)<br><br>
+![hasil](img/image-21.png)<br>
 
-Berikan tag `<div>`
+Berikan tag `<div>` <br>
 `index.html`
 
 ```html
@@ -1083,7 +1083,7 @@ body {
 **Penjelasan:** Style CSS diatas menentukan jenis font yang akan digunakan pada seluruh teks di dalam elemen `<body>`. Jika browser tidak mendukung font Arial, maka akan beralih ke font Helvetica, dan jika keduanya tidak didukung, akan menggunakan font sans-serif lainnya. `line-height: 1.65;` Mengatur jarak antar baris teks menjadi 1.65 kali tinggi font. <br>
 
 Tambahkan style pada class `container-satu`.<br>
-`styleFlex.Box`
+`styleFlexBox.css`
 
 ```css
 html,
