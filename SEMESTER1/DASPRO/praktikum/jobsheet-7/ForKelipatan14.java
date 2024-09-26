@@ -15,14 +15,21 @@ public class ForKelipatan14 {
         kelipatan = scan.nextInt();
         scan.close();
 
-        for (int i = 1; i <= 50; i++) {
+        for (int i = 1; i <= 10; i++) {
+            // i = 1
+            // i = 5
             if (i % kelipatan == 0) {
-                jumlah += i;
-                counter++;
+                // 1 % 5 = 1
+                // (i)5 % 5 = 0
+                // (i)10 % 5 = 0
+                // 0 + 5 = 5
+                // 5 + 10 = 15
+                jumlah += i; // jumlah = jumlah + i // menjumlahkan bilangan kelipatan 5 antara 1 -50
+                counter++; // jumlah kelipatan 5 antara 1 - 50
             }
         }
 
-        System.out.printf("Banyaknya bilangan %d dari 1 sampai 50 adalah %d\n", kelipatan, counter);
+        System.out.printf("Banyaknya kelipatan bilangan %d dari 1 sampai 50 adalah %d\n", kelipatan, counter);
         System.out.printf("Total bilangan kelipatan %d dari 1 sampai 50 adalah %d\n", kelipatan, jumlah);
         rata = (double) jumlah / counter;
         System.out.printf("Rata-rata bilangan kelipatan %d dari 1 sampai 50 adalah %.2f\n", kelipatan, rata);
