@@ -43,6 +43,12 @@ public class Pelanggan {
   public void displayInfo() {
     System.out.println("Nama Pelanggan: " + this.namaPelanggan);
     System.out.println("No Telepon: " + this.noTelp);
-    System.out.println("Jumlah Sewa: " + sewa.hitungTotalSewa());
+    System.out.println(sewa.getMobil());
+    if (sewa.hitungTotalSewa() > 0) {
+      System.out.println("Tanggal sewa: " + sewa.getTanggalSewa());
+      System.out.println("Tanggal Kembali: " + sewa.getTanggalKembali());
+      System.out.println("Jumlah Sewa: " + sewa.hitungTotalSewa() + "\n");
+    }
+
   }
 }

@@ -29,10 +29,29 @@ public class SewaMobil {
     this.mobil = mobil;
   }
 
+  public Mobil getMobil() {
+    return mobil.getMerk();
+  }
+
   public int hitungTotalSewa() {
+    if (this.tanggalSewa == null || this.tanggalKembali == null) {
+      System.out.println("Tidak ada sewa");
+      return 0;
+    }
     long lamaSewa = ChronoUnit.DAYS.between(this.tanggalSewa, this.tanggalKembali);
 
     this.totalSewa = mobil.getHargaSewa() * (int) lamaSewa;
     return totalSewa;
+  }
+
+  public void displayInfo() {
+    // if (hitungTotalSewa() > 0) {
+    System.out.println("Merk mobil: " + mobil.getMerk());
+    System.out.println("Tanggal sewa: " + getTanggalSewa());
+    System.out.println("Tanggal Kembali: " + getTanggalKembali());
+    System.out.println("Jumlah Sewa: " + hitungTotalSewa() + "\n");
+    // } else {
+    // System.out.println("Tidak ada sewa");
+    // }
   }
 }
